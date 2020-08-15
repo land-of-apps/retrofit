@@ -16,3 +16,7 @@ jar {
     attributes  'Automatic-Module-Name': 'retrofit2.converter.java8'
   }
 }
+test {
+  jvmArgs "-javaagent:$rootDir/appmap.jar"
+  jvmArgs "-Dappmap.output.directory=$rootDir/tmp/appmap"
+}

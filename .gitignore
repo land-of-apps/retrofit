@@ -9,7 +9,11 @@ gen
 build
 out
 lib
-
+.gradle
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
 target
 pom.xml.*
 release.properties

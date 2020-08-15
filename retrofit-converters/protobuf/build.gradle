@@ -23,3 +23,7 @@ protobuf {
     artifact = "com.google.protobuf:protoc:${versions.protobuf}"
   }
 }
+test {
+  jvmArgs "-javaagent:$rootDir/appmap.jar"
+  jvmArgs "-Dappmap.output.directory=$rootDir/tmp/appmap"
+}

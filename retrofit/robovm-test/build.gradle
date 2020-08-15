@@ -18,3 +18,7 @@ task robovmTest(type: Exec) {
   }
   commandLine './build/robovm/retrofit2.RoboVmPlatformTest'
 }
+test {
+  jvmArgs "-javaagent:$rootDir/appmap.jar"
+  jvmArgs "-Dappmap.output.directory=$rootDir/tmp/appmap"
+}

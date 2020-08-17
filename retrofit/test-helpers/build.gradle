@@ -5,3 +5,7 @@ dependencies {
 
   compileOnly deps.findBugsAnnotations
 }
+test {
+  jvmArgs "-javaagent:$rootDir/appmap.jar"
+  jvmArgs "-Dappmap.output.directory=$rootDir/tmp/appmap"
+}

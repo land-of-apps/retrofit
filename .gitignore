@@ -3,7 +3,8 @@
 build
 /reports
 local.properties
-
+tmp
 # Idea
 .idea
 *.iml
+target

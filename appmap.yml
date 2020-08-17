@@ -1,21 +1,3 @@
 name: retrofit
 packages:
-- path: com.example.retrofit
-- path: retrofit2.mock
 - path: retrofit2
-- path: retrofit2.convertor.gson
-- path: retrofit2.convertor.jackson
-- path: retrofit2.convertor.jaxb
-- path: retrofit2.convertor.moshi
-- path: retrofit2.convertor.protobuf
-- path: retrofit2.convertor.scalars
-- path: retrofit2.convertor.simplexml
-- path: retrofit2.convertor.wire
-- path: retrofit2.adapter.guava
-- path: retrofit2.adapter.java8
-- path: retrofit2.adapter.rxjava
-- path: retrofit2.adapter.rxjava2
-- path: retrofit2.adapter.rxjava3
-- path: retrofit2.adapter.scala
-- path: retrofit.convertor.guava
-- path: retrofit.convertor.java8
